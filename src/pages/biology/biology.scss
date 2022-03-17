@@ -1,0 +1,14 @@
+.biology {
+    display: flex;
+    width: 100%;
+
+    .biologyContainer {
+        flex: 6;
+
+        h1 {
+            text-align: center;
+            margin: 20px 0px;
+            font-size: 40px;
+        }
+    }
+}

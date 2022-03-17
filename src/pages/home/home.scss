@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+
+    .homeContainer {
+        flex: 6;
+        background-color: white;
+
+        h1 {
+            text-align: center;
+            margin: 20px 0px;
+            font-size: 40px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+    }
+}
